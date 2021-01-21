@@ -29,10 +29,12 @@ SOURCES:
 
 Libraries used:
 
--BioPython/GenomeDiagram to create the diagram
+-BioPython/SeqIO to read and access the genbank data
 
--ReportLab to create the image
+-BioPython/GenomeDiagram to create and draw the diagram
 
-Code to generate the diagram is a modified version of the code in the tutorial for Biopython's Genome Diagram Library. Link: http://biopython.org/DIST/docs/tutorial/Tutorial.html
+-ReportLab to create the image file and color the features on the diagram
+
+Code read the .gb file and generate the diagram is a modified version of the code in the tutorial for Biopython's Genome Diagram Library. Link: http://biopython.org/DIST/docs/tutorial/Tutorial.html
 
 I used the Biopython official documentation throughout the project. Link: https://biopython.org/docs/1.75/api/Bio.Graphics.GenomeDiagram.html
