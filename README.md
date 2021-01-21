@@ -28,7 +28,9 @@ SOURCES:
 
 
 Libraries used:
+
 -BioPython/GenomeDiagram to create the diagram
+
 -ReportLab to create the image
 
 Code to generate the diagram is a modified version of the code in the tutorial for Biopython's Genome Diagram Library. Link: http://biopython.org/DIST/docs/tutorial/Tutorial.html
