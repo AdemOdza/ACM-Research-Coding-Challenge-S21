@@ -23,18 +23,36 @@ Genome analysis is the identification of genomic features such as gene expressio
 
 Regardless if you can or cannot answer the question, provide a short explanation of how you got your solution or how you think it can be solved in your README.md file. However, we highly recommend giving the challenge a try, you just might learn something new!
 
+---
 
-SOURCES:
+## SOURCES:
 
 
 Libraries used:
 
--BioPython/SeqIO to read and access the genbank data
+- BioPython/SeqIO to read and access the genbank data
 
--BioPython/GenomeDiagram to create and draw the diagram
+- BioPython/GenomeDiagram to create and draw the diagram
 
--ReportLab to create the image file and color the features on the diagram
+- ReportLab to create the .png image and color the features on the diagram
 
-Code read the .gb file and generate the diagram is a modified version of the code in the tutorial for Biopython's Genome Diagram Library. Link: http://biopython.org/DIST/docs/tutorial/Tutorial.html
+The code to read the .gb file and generate the diagram is a modified version of the code in the tutorial for Biopython's Genome Diagram Library. Link: http://biopython.org/DIST/docs/tutorial/Tutorial.html
 
-I used the Biopython official documentation throughout the project. Link: https://biopython.org/docs/1.75/api/Bio.Graphics.GenomeDiagram.html
+I used the Biopython official documentation throughout the problem. Link: https://biopython.org/docs/1.75/api/Bio.Graphics.GenomeDiagram.html
+
+---
+
+## Notes: 
+
+I decided to write the program in Python as the question suggested since:
+
+- I felt like it would be the most straightforward way to solve the problem 
+
+- Most of the libraries that I saw that pertained to biology/genetics were for Python 
+
+- I feel Python would be most common in research, so I wanted to use this as a refresher. 
+
+The first thing I did was research circular genome maps as I did not know anything about genome mapping or the diagrams used. I wanted to make sure I understood the diagram I was trying to make before I made it.
+When I researched different libraries for visualizing biological data, I found BioJava, BioPython, and SeqAn. For the reasons I shared above, I chose BioPython and its GenomeDiagram package and began reading the documentation and the tutorial I linked earlier. GenomeDiagram was pretty simple to use so I was able to create the diagram and improve it without many problems.
+
+I found the problem very interesting since I haven't done anything like this before and was able to learn some new things. 
