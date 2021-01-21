@@ -24,5 +24,7 @@ Genome analysis is the identification of genomic features such as gene expressio
 Regardless if you can or cannot answer the question, provide a short explanation of how you got your solution or how you think it can be solved in your README.md file. However, we highly recommend giving the challenge a try, you just might learn something new!
 
 Libraries used:
--BioPython/GenomeDiagram
--NumPy
+-BioPython/GenomeDiagram to create the diagram
+-ReportLab to create the image
+
+Code is a modified version of the code in the tutorial for Biopython's Genome Diagram Library. Link: http://biopython.org/DIST/docs/tutorial/Tutorial.html
